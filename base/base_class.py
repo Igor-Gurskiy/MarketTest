@@ -57,6 +57,7 @@ class Base():
         print("Click button cart")
 
     def accept_alert(self):
+        WebDriverWait(self.driver, 10).until(EC.alert_is_present())
         self.driver.switch_to.alert.accept()
         
     # Methods

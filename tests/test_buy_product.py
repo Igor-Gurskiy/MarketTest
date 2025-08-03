@@ -14,7 +14,6 @@ def test_buy_product():
     time.sleep(2)
     home.action_click_product(1)
     product.click_button_add_to_cart()
-    time.sleep(2)
     product.accept_alert()
     product.action_click_button_cart()
     cart.place_order("Ivan", "Russia", "Moscow", "123456789", "12", "2022")
