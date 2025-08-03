@@ -13,7 +13,6 @@ class Base():
     button_login = '//button[contains(text(), "Log in")]'
 
     button_cart = '//a[@id="cartur"]'
-    # button_cart = '//*[@id="navbarExample"]/ul/li[4]'
 
     greetings = '//a[@id="nameofuser"]'
 
